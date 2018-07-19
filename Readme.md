@@ -1,20 +1,28 @@
-Number Formatter
+Render Message
 =========
 
-A small library that adds commas to numbers
+A small library that render message from component
 
 ## Installation
 
   `npm install @pparashar/testpparashar`
 
 ## Usage
+npm i testpparashar
+ printMessage()
 
-    var numFormatter = require('@praveenparashar/number-formatter');
-
-    var formattedNum = numFormatter(35666);
+ ## CODE in REACTJS
+  import request, { printMessage } from 'testpparashar';
+class PraveenTest extends React.Component{
+    render() {
+        return <h2>{printMessage()}</h2>;
+    
+    }
+}
+  ## OUTPUT
   
   
-  Output should be `35,666`
+  Output should be 'This is my npm package. Wohoo !'
 
 
 ## Tests
@@ -23,4 +31,4 @@ A small library that adds commas to numbers
 
 ## Contributing
 
-In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.# testnpmpackage
+In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
